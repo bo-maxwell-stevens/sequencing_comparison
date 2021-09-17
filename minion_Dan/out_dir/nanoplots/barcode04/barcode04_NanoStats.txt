@@ -1,0 +1,27 @@
+General summary:        
+Active channels:                 461.0
+Mean read length:                445.4
+Mean read quality:                12.9
+Median read length:              447.0
+Median read quality:              12.8
+Number of reads:             155,943.0
+Read length N50:                 448.0
+Total bases:              69,460,746.0
+Number, percentage and megabases of reads above quality cutoffs
+>Q5:	155943 (100.0%) 69.5Mb
+>Q7:	155943 (100.0%) 69.5Mb
+>Q10:	141642 (90.8%) 63.2Mb
+>Q12:	97643 (62.6%) 43.7Mb
+>Q15:	26921 (17.3%) 12.1Mb
+Top 5 highest mean basecall quality scores and their read lengths
+1:	24.6 (107)
+2:	23.3 (165)
+3:	22.7 (439)
+4:	22.4 (461)
+5:	22.3 (463)
+Top 5 longest reads and their mean basecall quality score
+1:	1332 (9.4)
+2:	1316 (13.4)
+3:	1312 (13.4)
+4:	1239 (9.7)
+5:	1196 (14.4)

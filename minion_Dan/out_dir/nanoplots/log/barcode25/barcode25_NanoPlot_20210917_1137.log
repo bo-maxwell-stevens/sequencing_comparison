@@ -1,0 +1,100 @@
+2021-09-17 11:37:17,019 NanoPlot 1.32.0 started with arguments Namespace(N50=True, alength=False, bam=None, barcoded=False, color='#4CB391', colormap='Greens', cram=None, downsample=None, dpi=300, drop_outliers=False, fasta=None, fastq=None, fastq_minimal=None, fastq_rich=['barcode25.fastq'], feather=None, font_scale=1, format='png', hide_stats=False, huge=True, listcolormaps=False, listcolors=False, loglength=True, maxlength=None, minlength=None, minqual=None, no_N50=False, no_supplementary=False, outdir='barcode25', path='barcode25/barcode25_', percentqual=False, pickle=None, plots=['kde', 'hex', 'dot'], prefix='barcode25_', raw=False, readtype='1D', runtime_until=None, store=True, summary=None, threads=16, title='barcode25 Nanopore Sequence', tsv_stats=False, ubam=None, verbose=True)
+2021-09-17 11:37:17,020 Python version is: 3.7.8 | packaged by conda-forge | (default, Jul 31 2020, 02:25:08)  [GCC 7.5.0]
+2021-09-17 11:37:17,021 NanoPlot:  valid output format png
+2021-09-17 11:37:17,021 nanoget: Running with a single huge input file.
+2021-09-17 11:37:17,021 Nanoget: Starting to collect statistics from rich fastq file.
+2021-09-17 11:37:17,084 Reduced DataFrame memory usage from 0.017484664916992188Mb to 0.008147239685058594Mb
+2021-09-17 11:37:17,091 Nanoget: Gathered all metrics of 89 reads
+2021-09-17 11:37:17,113 Calculated statistics
+2021-09-17 11:37:17,114 Using sequenced read lengths for plotting.
+2021-09-17 11:37:17,115 Using log10 scaled read lengths.
+2021-09-17 11:37:17,119 NanoPlot:  Valid color #4CB391.
+2021-09-17 11:37:17,121 NanoPlot:  Valid colormap Greens.
+2021-09-17 11:37:17,123 NanoPlot:  Creating length plots for Read length.
+2021-09-17 11:37:17,123 NanoPlot:  Using 89 reads with read length N50 of 460bp and maximum of 474bp.
+2021-09-17 11:37:19,498 Nanoplotter: orca not found, not creating static image of html. See https://github.com/plotly/orca
+2021-09-17 11:37:19,499 Image generation requires the psutil package.
+
+Install using pip:
+    $ pip install psutil
+
+Install using conda:
+    $ conda install psutil
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/nanoplotter/plot.py", line 60, in save_static
+    pio.write_image(self.fig, self.path.replace('html', 'png'))
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_kaleido.py", line 251, in write_image
+    engine=engine,
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_kaleido.py", line 108, in to_image
+    validate=validate,
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_orca.py", line 1535, in to_image
+    ensure_server()
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_orca.py", line 1370, in ensure_server
+    """
+ValueError: Image generation requires the psutil package.
+
+Install using pip:
+    $ pip install psutil
+
+Install using conda:
+    $ conda install psutil
+
+2021-09-17 11:37:19,955 Created length plots
+2021-09-17 11:37:19,957 NanoPlot:  Creating Read lengths vs Average read quality plots using statistics from 89 reads.
+2021-09-17 11:37:25,093 NanoPlot:  Creating Read lengths vs Average read quality plots using statistics from 89 reads.
+2021-09-17 11:37:29,970 Created LengthvsQual plot
+2021-09-17 11:37:29,971 Nanoplotter: Creating heatmap of reads per channel using 89 reads.
+2021-09-17 11:37:30,666 Created spatialheatmap for succesfull basecalls.
+2021-09-17 11:37:30,670 Nanoplotter: Creating timeplots using 89 reads.
+2021-09-17 11:37:33,591 Nanoplotter: Creating timeplots using 89 reads.
+2021-09-17 11:37:36,467 Created timeplots.
+2021-09-17 11:37:36,467 Writing html report.
+2021-09-17 11:37:43,177 Finished!
+2021-09-17 11:37:44,721 NanoPlot 1.32.0 started with arguments Namespace(N50=True, alength=False, bam=None, barcoded=False, color='#4CB391', colormap='Greens', cram=None, downsample=None, dpi=100, drop_outliers=False, fasta=None, fastq=None, fastq_minimal=None, fastq_rich=None, feather=None, font_scale=1, format='pdf', hide_stats=False, huge=True, listcolormaps=False, listcolors=False, loglength=True, maxlength=None, minlength=None, minqual=None, no_N50=False, no_supplementary=False, outdir='barcode25', path='barcode25/barcode25_', percentqual=False, pickle='barcode25/barcode25_NanoPlot-data.pickle', plots=['kde', 'hex', 'dot'], prefix='barcode25_', raw=False, readtype='1D', runtime_until=None, store=True, summary=None, threads=16, title='barcode25 Nanopore Sequence', tsv_stats=False, ubam=None, verbose=True)
+2021-09-17 11:37:44,721 Python version is: 3.7.8 | packaged by conda-forge | (default, Jul 31 2020, 02:25:08)  [GCC 7.5.0]
+2021-09-17 11:37:44,722 NanoPlot:  valid output format pdf
+2021-09-17 11:37:44,738 Calculated statistics
+2021-09-17 11:37:44,739 Using sequenced read lengths for plotting.
+2021-09-17 11:37:44,740 Using log10 scaled read lengths.
+2021-09-17 11:37:44,743 NanoPlot:  Valid color #4CB391.
+2021-09-17 11:37:44,743 NanoPlot:  Valid colormap Greens.
+2021-09-17 11:37:44,745 NanoPlot:  Creating length plots for Read length.
+2021-09-17 11:37:44,745 NanoPlot:  Using 89 reads with read length N50 of 460bp and maximum of 474bp.
+2021-09-17 11:37:46,390 Nanoplotter: orca not found, not creating static image of html. See https://github.com/plotly/orca
+2021-09-17 11:37:46,393 Image generation requires the psutil package.
+
+Install using pip:
+    $ pip install psutil
+
+Install using conda:
+    $ conda install psutil
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/nanoplotter/plot.py", line 60, in save_static
+    pio.write_image(self.fig, self.path.replace('html', 'png'))
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_kaleido.py", line 251, in write_image
+    engine=engine,
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_kaleido.py", line 108, in to_image
+    validate=validate,
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_orca.py", line 1535, in to_image
+    ensure_server()
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_orca.py", line 1370, in ensure_server
+    """
+ValueError: Image generation requires the psutil package.
+
+Install using pip:
+    $ pip install psutil
+
+Install using conda:
+    $ conda install psutil
+
+2021-09-17 11:37:46,938 Created length plots
+2021-09-17 11:37:46,941 NanoPlot:  Creating Read lengths vs Average read quality plots using statistics from 89 reads.
+2021-09-17 11:37:51,992 NanoPlot:  Creating Read lengths vs Average read quality plots using statistics from 89 reads.
+2021-09-17 11:37:57,643 Created LengthvsQual plot
+2021-09-17 11:37:57,644 Nanoplotter: Creating heatmap of reads per channel using 89 reads.
+2021-09-17 11:37:58,411 Created spatialheatmap for succesfull basecalls.
+2021-09-17 11:37:58,416 Nanoplotter: Creating timeplots using 89 reads.
+2021-09-17 11:38:02,348 Nanoplotter: Creating timeplots using 89 reads.
+2021-09-17 11:38:05,628 Created timeplots.
+2021-09-17 11:38:05,628 Writing html report.
+2021-09-17 11:38:16,030 Finished!
